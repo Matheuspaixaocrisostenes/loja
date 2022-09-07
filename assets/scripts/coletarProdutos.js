@@ -6,6 +6,7 @@ for(let c = 1; c < 899; c++){
     div.className = 'card'
     const img = document.createElement('img')
     img.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${c}.png`
+    img.id = c
     p.innerHTML += `Pokemon ${c}`
     div.appendChild(img)
     div.appendChild(p)
