@@ -78,3 +78,19 @@ span{
     font-weight: bold;
     padding-top: 20px;
 }
+
+button{
+    font-size: 1.2em;
+    background-color: #5757E0;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3939f0;
+    transition: 0.5s;
+}
