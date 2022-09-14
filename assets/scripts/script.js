@@ -1,6 +1,7 @@
 const res = document.getElementById('res')
+let cont = 1
 
-for(let c = 1; c < 150; c++){
+for(let c = 1; c < 5; c++){
     const p = document.createElement('p')
     const span = document.createElement('span')
     const div = document.createElement('div')
@@ -13,8 +14,11 @@ for(let c = 1; c < 150; c++){
     span.innerHTML += `R$ 100,00`
     btn.innerHTML += 'Comprar'
     btn.id = c
+    const a = document.getElementById('a')
     btn.onclick = function(){
-        alert(btn.id)
+        const carrinho = document.getElementById('cart')
+        carrinho.innerHTML = `${cont++}`
+        carrinho.style.display = 'inline'
     }
     div.appendChild(img)
     div.appendChild(p)

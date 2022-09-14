@@ -94,3 +94,12 @@ button:hover{
     background-color: #3939f0;
     transition: 0.5s;
 }
+
+#cart{
+    background-color: white;
+    padding: 5px;
+    font-size: 1.3em;
+    color: black;
+    display: none;
+    border-radius: 100%;
+}
