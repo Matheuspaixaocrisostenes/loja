@@ -12,12 +12,16 @@ for(let c = 1; c < 150; c++){
     img.id = c
     p.innerHTML += `Pokemon ${c}`
     span.innerHTML += `R$ 100,00`
+    if(c > 20){
+        span.innerHTML = `R$ 150,00`
+    }
     btn.innerHTML += 'Comprar'
     btn.id = c
     btn.onclick = function(){
         const carrinho = document.getElementById('cart')
         carrinho.innerHTML = `${cont++}`
         carrinho.style.display = 'inline'
+        alert('Produto adicionado no carrinho!')
     }
     div.appendChild(img)
     div.appendChild(p)
