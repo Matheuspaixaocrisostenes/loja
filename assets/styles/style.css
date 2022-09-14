@@ -73,3 +73,8 @@ div{
     text-align: center;
     margin: 20px;
 }
+
+span{
+    font-weight: bold;
+    padding-top: 20px;
+}
