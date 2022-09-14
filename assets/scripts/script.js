@@ -12,6 +12,10 @@ for(let c = 1; c < 150; c++){
     p.innerHTML += `Pokemon ${c}`
     span.innerHTML += `R$ 100,00`
     btn.innerHTML += 'Comprar'
+    btn.id = c
+    btn.onclick = function(){
+        alert(btn.id)
+    }
     div.appendChild(img)
     div.appendChild(p)
     div.appendChild(span)
