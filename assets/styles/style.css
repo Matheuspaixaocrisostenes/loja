@@ -14,11 +14,6 @@ section{
     align-items: center;
     justify-content: space-around;
     background-color: #5757E0;
-    position: fixed;
-    height: 100px;
-    width: 100vw;
-    margin-top: -200px;
-
 }
 
 section img{
@@ -107,11 +102,8 @@ button:hover{
 
 @media(max-width: 650px){
     section{
-        margin-top: 1px;
         flex-direction: column;
         height: 300px;
-        position: relative;
-        width: 94vw;
         padding: 0px;
     }
 

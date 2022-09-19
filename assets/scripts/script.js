@@ -15,6 +15,10 @@ for(let c = 1; c < 150; c++){
     if(c > 20){
         span.innerHTML = `R$ 150,00`
     }
+
+    if(c > 100){
+        span.innerHTML = `R$ 250,00`
+    }
     btn.innerHTML += 'Comprar'
     btn.id = c
     btn.onclick = function(){
